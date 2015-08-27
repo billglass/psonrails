@@ -1,0 +1,144 @@
+body {
+	margin: 0;
+}
+
+.header2 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#music {
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 95%;
+	width: 400px;
+	position: fixed;
+  overflow-y: scroll;
+/*  padding-right: 15px;*/
+  top: 0;
+  bottom: 0;
+  padding: 0 !important;
+}
+
+.navname {
+	margin-top: 80px;
+	font-family: 'Poiret One', sans-serif !important;
+	color: #fff;
+	font-size: 4.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.name {
+	padding-top: 25px;
+	font-family: 'Poiret One', sans-serif !important;
+	color: #fff;
+	font-size: 4.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.music_title {
+	color: #fff;
+	font-family: 'Poiret One', sans-serif !important;
+	margin-top: 100px;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 3em;
+	text-transform: uppercase;
+	border-top: 1px solid #ff5050;
+}
+
+.list-unstyled {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	font-family: 'Josefin Sans', sans-serif !important;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.list-unstyled li {
+	padding: 5px;
+}
+
+.list-unstyled li a:link, a:active, a:visited {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.list-unstyled li a:hover {
+	color: rgb(255, 80, 80) !important;
+}
+
+.about {
+	color: #fff;
+	margin-top: 150px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about_title {
+	color: #fff;
+	font-family: 'Poiret One', sans-serif !important;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 3em;
+	text-transform: uppercase;
+	border-top: 1px solid #ff5050;
+}
+
+#bio {
+	margin: 0 auto;
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif !important;
+	font-size: 1.5em;
+	text-indent: 0.5em;
+	padding: 10px 5px 10px 15px;
+}
+
+#contact {
+	height: 350px;
+	margin-top: 50px;
+	border-top: 1px solid #ff5050;
+}
+
+.contact_title {
+	color: #fff;
+	font-family: 'Poiret One', sans-serif !important;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+#email {
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif !important;
+	font-size: 1.5em;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+}
+
+#email_two {
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif !important;
+	font-size: 1.5em;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.social {
+	margin: 0 auto;
+	padding: 40px 0px 10px 50px;
+	width: 350px;
+}
+
+.slinks {
+	padding-right: 10px;
+	height: 50px;
+	width: 60px;
+}
+
