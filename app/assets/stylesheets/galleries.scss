@@ -14,8 +14,9 @@
 	width: 70%;
 	margin-left: 15%;
 	padding: 2%;
-	margin-top: 2%
+	margin-top: 150px;
 }
+
 .galary_header{
 	border-bottom: 1px solid black;
 	font-size: 30px;
@@ -25,11 +26,11 @@
 }
 
 
-
 .thumbnail {margin-bottom:6px;}
 
 .modal-body img {
-	width: 100%; 	
+	width: 100%; 
+	margin-top: 25px;	
   
 }
 
@@ -41,10 +42,12 @@
 	}
 
 .eventtitle{
-	color:#cd6839;
+	color: rgba(255, 255, 255, 0.8);
 	font-size: 30px;
 	text-align: center;
 	font-family: cursive;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 

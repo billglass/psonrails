@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hycp</title>
+  <title>Shyangden Phiroj</title>
   <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css">
+
 
 <!-- Optional theme -->
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
 <!-- Latest compiled and minified JavaScript -->
@@ -21,26 +26,30 @@
 
 <body>
 
+          <div class="finish">
+            <span class="naming">Shyangden Phiroj</span>
+            <ul class="now">
+              <li class="appnav"><%= link_to "Home", '/' %></li> 
+              <li class="appnav"><%= link_to "Gallery", galleries_path %></li>  
+              <li class="appnav"><%= link_to "Blog", blog_path %></li>     
+              <li class="appnav"> <%= link_to "Contact", contacts_path %></li>
+            </ul>
+          </div>
 <!--   <div class="header" id="header-container">	
     <nav class="navbar navbar-default">
       <div class="conatiner">
-        <div class="navbar-header">
+        <div class="navbar-header"> -->
 
-          <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+<!--           <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
     
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span> -->
             
-          </a>
+<!--           </a>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li> <%= link_to "Home", '/' %></li> 
-              <li><%= link_to "Gallery", galleries_path %></li>  
-              <li><%= link_to "Blog", blog_path %></li>     
-              <li> <%= link_to "Contact", contacts_path %></li>
-            </ul>
-          </div>
+            <ul class="nav navbar-nav navbar-right"> -->
+
 
 <!--         </div>
       </div>
@@ -48,13 +57,16 @@
   </div> -->
 				
 	<%= yield %>
-    <footer>
+
+    <footer id="footernav">
     	<% if current_admin %>
     	 <%= link_to 'logout', destroy_admin_session_path, method: :delete %>
     	<% end %>
     </footer>
-</body>
+
 
     <p class="notice"><%= notice %></p>
 	  <p class="alert"><%= alert %></p>
+    </body>
 </html>
+
