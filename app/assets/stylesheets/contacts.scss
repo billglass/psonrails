@@ -3,7 +3,6 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
  
 .contactpage{
 	background: url('bd.png') no-repeat center center fixed; 
@@ -15,11 +14,17 @@
 
 }
 .contactbox{
-	background-color: rgba(0, 0, 0, 0.2);
+	// background-color: rgba(0, 0, 0, 0.3);
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 150px;
+	height: 700px;
+}
 
+.contact_title {
+	font-family: 'Poiret One', sans-serif !important;
+	letter-spacing: .2em;
+	text-align: center;
 }
 
 .mailto {
@@ -28,7 +33,26 @@
 	margin: 0 auto;
 }
 
+.contact {
+	// height: 350px;
+	// margin-top: 50px;
+}
 
+.social {
+	// padding: 50px 0px 50px 20px;
+	// width: 100%;
+}
+
+.socialspan {
+	margin-left: 25%;
+}
+
+.slinks {
+	margin: 50px;
+	padding-right: 50px;
+	width: 90px;
+	height: 80px;
+}
 
 .contactheader{
 	text-align: center;
