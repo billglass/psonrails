@@ -71,7 +71,7 @@ body {
 	padding-top: 40px;
 	font-size: 3em;
 	text-transform: uppercase;
-	border-top: 1px solid #ff5050;
+/*	border-top: 1px solid #E5C454;*/
 }
 
 .list-unstyled {
@@ -110,7 +110,7 @@ body {
 	padding-top: 50px;
 	font-size: 3em;
 	text-transform: uppercase;
-	border-top: 1px solid #ff5050;
+/*	border-top: 1px solid #E5C454;*/
 }
 
 #bio {
@@ -127,7 +127,7 @@ body {
 #contact {
 	height: 350px;
 	margin-top: 50px;
-	border-top: 1px solid #ff5050;
+/*	border-top: 1px solid #E5C454;*/
 }
 
 .contact_title {
@@ -171,7 +171,7 @@ body {
 }
 
 .naming {
-	color: white;
+	color: #E5C454;
 	float: left;
 	font-family: 'Josefin Sans', sans-serif !important;
 	text-transform: uppercase;
@@ -208,6 +208,15 @@ body {
 	padding-bottom: 5px;
 }
 
+ul li {
+	color: #E5C454;
+}
+/*
+a.appnav:link, a.appnav:visited, a.appnav:hover, a.appnav:active,  {
+	color: #E5C454 !important;
+	text-decoration: none !important;
+}
+*/
 .footernav {
 	width: 100%;
 	background-color: #000 !important;
@@ -232,37 +241,6 @@ margin: 0 auto !important;
 padding: 0 !important;
 }
 
-.header-video {
-  position: relative;
-  overflow: hidden;
+@media all and (max-width: 400px)  {
 }
-
-.header-video iframe,
-.header-video video {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.header-video iframe {
-  height: 100%;
-  width: 100%;
-}
-
-.header-video video {
-  width: 100%;
-}
-
-.header-video__teaser-video {
-  width: 100%;
-  height: auto; 
-}
-
-.header-video__media {
-  width: 100%;
-  height: auto;
-}
-
 

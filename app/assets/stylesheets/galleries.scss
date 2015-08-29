@@ -10,7 +10,7 @@
 
 }
 .gallerybox{
-	background-color: rgba(255,255,255, 0.3);
+	// background-color: rgba(255,255,255, 0.3);
 	width: 70%;
 	margin-left: 15%;
 	padding: 2%;
@@ -20,8 +20,9 @@
 .galary_header{
 	border-bottom: 1px solid black;
 	font-size: 30px;
-	color:black;
-	font-family: cursive;
+	color: #E5C454;
+	font-family: 'Poiret One', sans-serif;
+	text-transform: uppercase;
 	margin-bottom: 2%;
 	text-align: center;
 }
@@ -50,7 +51,7 @@
 	color: rgba(255, 255, 255, 0.8);
 	font-size: 30px;
 	text-align: center;
-	font-family: cursive;
+	font-family: 'Poiret One', sans-serif;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
