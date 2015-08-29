@@ -6,7 +6,8 @@
 
  
 .contactpage{
-	background: url('hyclub8.jpg') no-repeat center center fixed; 
+	background: url('bd.png') no-repeat center center fixed; 
+	// background-color: #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,23 +15,26 @@
 
 }
 .contactbox{
-	background-color: rgba(255,255,255,.5);
-	width: 300px;
-	margin-left: 35%;
-	padding: 5%;
-	margin-top: 5%;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 150px;
 
+}
+
+.mailto {
+	height: 60px;
+	width: 70px;
+	margin: 0 auto;
 }
 
 
 
-
-
 .contactheader{
-	
-	color: #cd6839;	
+	text-align: center;
+	color: #fff;	
 	font-size: 30px;
-	font-family: cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	padding: 10px;
 
 }

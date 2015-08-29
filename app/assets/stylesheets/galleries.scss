@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .gallerypage{
-	background: url('hyclub10.jpg') no-repeat center center fixed; 
+		background: url('bd.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,7 +10,7 @@
 
 }
 .gallerybox{
-	background-color: rgba(255,255,255,.5);
+	background-color: rgba(255,255,255, 0.3);
 	width: 70%;
 	margin-left: 15%;
 	padding: 2%;
@@ -22,7 +22,8 @@
 	font-size: 30px;
 	color:black;
 	font-family: cursive;
-	margin-bottom: 2%
+	margin-bottom: 2%;
+	text-align: center;
 }
 
 
@@ -36,9 +37,13 @@
 
 .gallerytitle  {
 	font-family: times;
-	font-size: 18px;
+	font-size: 1.7em;
+	letter-spacing: .12em;
+	text-transform: uppercase;
 	color: #a94442;
-	margin-left: 8%
+	margin: 0 auto;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
 	}
 
 .eventtitle{
