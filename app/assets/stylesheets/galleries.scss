@@ -11,20 +11,49 @@
 }
 .gallerybox{
 	// background-color: rgba(255,255,255, 0.3);
-	width: 70%;
-	margin-left: 15%;
+	width: 100%;
+	// margin-left: 15%;
 	padding: 2%;
-	margin-top: 150px;
+	margin-top: 25px;
 }
 
 .galary_header{
-	border-bottom: 1px solid black;
-	font-size: 30px;
-	color: #E5C454;
-	font-family: 'Poiret One', sans-serif;
-	text-transform: uppercase;
-	margin-bottom: 2%;
-	text-align: center;
+	// border-bottom: 1px solid black;
+	// font-size: 3.5em;
+	// color: #E5C454;
+	// font-family: 'Poiret One', sans-serif;
+	// text-transform: uppercase;
+	// margin-bottom: 2%;
+	// text-align: center;
+}
+
+.galary_header{
+	margin: 0 auto;
+	font-size: 320px;
+	line-height: 250px;
+	padding: 60px 30px 30px;
+	color: rgba(255, 255, 255, 0.1);
+	font-family: Arial, sans-serif;
+	text-shadow: 10px 10px 2px rgba(0,0,0,0.2);
+	
+	-webkit-text-stroke: 2px rgba(255,255,255,0.2);
+	
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-image: url(IMG_5694.JPG);
+	background-position: 50% 50%;
+	background-size: 100%;
+	
+	-webkit-background-clip: text;
+	/* let's assume that one day it's supported */
+	-moz-background-clip: text;
+	background-clip: text;
+
+	transition: all 0.5s linear;
+	
+	/* for now, let's just add some niceness for Firefox */
+	// -moz-border-radius: 30px;
+	// -moz-box-shadow: 0px 0px 1px 8px rgba(67, 201, 117, 0.2);	
 }
 
 
@@ -32,20 +61,31 @@
 
 .modal-body img {
 	width: 100%; 
-	margin-top: 25px;	
+	margin-top: 10px;	
   
 }
 
-.gallerytitle  {
-	font-family: times;
-	font-size: 1.7em;
-	letter-spacing: .12em;
-	text-transform: uppercase;
-	color: #a94442;
-	margin: 0 auto;
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: center;
-	}
+// .gallerytitle {
+// 	font-family: 'Josefin Sans', sans-serif;
+// 	font-size: 1.7em;
+// 	letter-spacing: .12em;
+// 	text-transform: uppercase;
+// 	color: #fff;
+// 	margin: 0 auto;
+// 	}
+
+.gallerytitle {
+    color: #fff;
+    margin-left: 50%;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    font-size: 1.73em;
+    font-family: 'Josefin Sans', sans-serif;
+    &:hover {
+      color: #E5C454;
+      text-decoration: none;
+    }
+  }
 
 .eventtitle{
 	color: rgba(255, 255, 255, 0.8);

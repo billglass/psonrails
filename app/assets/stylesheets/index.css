@@ -1,6 +1,23 @@
 body {
 	margin: 0;
+		background: url('bd.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+.it-wrapper h3{
+	width: 100%;
+	font-size: 250px;
+	line-height: 188px;
+/*	padding: 60px 30px 30px;*/
+	color: rgba(255, 255, 255, 0.3);
+	font-family: Arial, sans-serif;
+	text-shadow: 10px 10px 2px rgba(0,0,0,0.2);	
+
+}
+
 
 .header {
 	width: 100%;
@@ -28,7 +45,7 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	padding-top: 50px;
-	margin-top: 0;
+	margin: 50px 0 50px 0;
 }
 
 .music_title {
@@ -189,4 +206,6 @@ padding: 0 !important;
 
 @media all and (max-width: 400px)  {
 }
+
+
 
