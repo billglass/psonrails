@@ -8,6 +8,8 @@ Rails.application.routes.draw do
     resources :comments
   end 
 
+  get '/media', to: 'media#index'
+
   get '/about', to: 'pages#about'
   
   get '/blog', to:  'posts#index'
