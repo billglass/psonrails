@@ -1,57 +1,27 @@
 body {
 	margin: 0;
-/*	background-color: #000;
-	background: url(images/bd.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
 }
 
 .header {
-/*	background-color: #000;*/
 	width: 100%;
-	margin: 0 auto;
-/*	margin-top: 100px;*/
-}
-
-.header2 {
-  width: 100%;
-  height: 500px;
-  margin: 0 auto;
-  border: 10px solid green;
-/*margin-top: 25px;*/
-/*background-color: #000;*/
-}
-
-.header3 {
-	width: 100%;
-	height: 600px;
-	border: 10px solid red;
 	margin: 0 auto;
 }
 
 #music {
 /*	background-color: rgb(0, 0, 0);*/
-		background: url('bd.png') no-repeat center center fixed; 
+	background: url('bd.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-/*	height: 100%;*/
 	width: 100%;
 	margin: 0;
 /*	position: fixed;*/
 /*  overflow-y: scroll;*/
   text-align: center;
-/*  padding-right: 15px;*/
-/*  top: 500px;*/
-/*  bottom: 0;
-  padding: 0 !important;*/
 }
 
 .navname {
-/*	margin-top: 80px;*/
 	font-family: 'Poiret One', sans-serif !important;
 	color: #fff;
 	font-size: 4.5em;
@@ -64,34 +34,11 @@ body {
 .music_title {
 	color: #fff;
 	font-family: 'Poiret One', sans-serif !important;
-/*	margin-top: 100px;*/
 	margin-bottom: 50px;
 	text-align: center;
 	padding-top: 40px;
 	font-size: 3em;
 	text-transform: uppercase;
-/*	border-top: 1px solid #E5C454;*/
-}
-
-.list-unstyled {
-	margin-top: 10px;
-/*	margin-bottom: 40px;*/
-	font-family: 'Josefin Sans', sans-serif !important;
-	font-size: 1.5em;
-	text-align: center;
-}
-
-.list-unstyled li {
-	padding: 5px;
-}
-
-.list-unstyled li a:link, a:active, a:visited {
-	color: #fff !important;
-	text-decoration: none;
-}
-
-.list-unstyled li a:hover {
-	color: rgb(255, 80, 80) !important;
 }
 
 .about {
@@ -109,7 +56,6 @@ body {
 	padding-top: 50px;
 	font-size: 3em;
 	text-transform: uppercase;
-/*	border-top: 1px solid #E5C454;*/
 }
 
 #bio {
@@ -126,7 +72,6 @@ body {
 #contact {
 	height: 350px;
 	margin-top: 50px;
-/*	border-top: 1px solid #E5C454;*/
 }
 
 .contact_title {
@@ -179,24 +124,23 @@ body {
 	padding: 10px 0 10px 50px;
 }
 
-.finish {
+.navlist {
 	background-color: rgba(0, 0, 0, 0.5);
 	margin: 0;
-/*	margin-bottom: 50px;*/
 	display: inline;
-/*	bottom: 50px;*/
 	z-index: 10000 !important;
 	position: fixed !important;
 	width: 100%;
 }
 
-.now {
+.ulist {
 	list-style-type: none;
-	background-color: red;
+	color: #fff !important;
 	margin: 0;
 }
 
 .appnav {
+	color: #fff !important;
 	font-family: 'Josefin Sans', sans-serif !important;
 	font-size: 1.3em;
 	display: inline;
@@ -207,15 +151,18 @@ body {
 	padding-bottom: 5px;
 }
 
-ul li .appnav {
-	color: #E5C454;
+.appnav a {
+	color: #fff !important;
 }
-/*
-a.appnav:link, a.appnav:visited, a.appnav:hover, a.appnav:active,  {
+
+.appnav a:link, .appnav a:visited {
+	text-decoration: none;
+}
+
+.appnav a:hover, .appnav a:active {
 	color: #E5C454 !important;
-	text-decoration: none !important;
 }
-*/
+
 .footernav {
 	width: 100%;
 	background-color: #000 !important;
